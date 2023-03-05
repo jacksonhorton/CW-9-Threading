@@ -1,4 +1,10 @@
-﻿using CW9Threading;
+﻿/*
+ *  Name: Jackson Horton
+ *  CW 9
+ *  This Main uses the user input to manage all the threads and thread objects and accumulates
+ *  the results to estimate the value of pi.
+ */
+using CW9Threading;
 using System.Threading;
 
 public class Program

@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ *  Name: Jackson Horton
+ *  CW 9
+ *  This class houses the object created and used by each thread.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
