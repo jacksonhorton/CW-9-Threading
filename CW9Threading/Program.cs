@@ -56,5 +56,7 @@ public class Program
 
         Console.WriteLine("Time taken: " + watch.ElapsedMilliseconds/1000d);
 
+        Console.ReadKey();
+
     }
 }
