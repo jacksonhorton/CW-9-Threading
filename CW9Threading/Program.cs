@@ -15,6 +15,10 @@ public class Program
         List<Thread> threads = new();
         List<FindPiThread> findPiThreads = new();
 
+
+        // creates timer, increments every second
+        var watch = System.Diagnostics.Stopwatch.StartNew();
+
         // loop 1: set up and start threads
         for (int i = 0; i < numThreads; i++)
         {
@@ -49,6 +53,8 @@ public class Program
 
         double piEstimate = 4 * (double) numInside / (numDartsPerThread * numThreads);
         Console.WriteLine("Pi esitmate: " + piEstimate);
+
+        Console.WriteLine("Time taken: " + watch.ElapsedMilliseconds/1000d);
 
     }
 }
